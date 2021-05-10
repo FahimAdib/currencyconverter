@@ -1,0 +1,130 @@
+.top_half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bottom_half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+    align-items: center;
+}
+
+#header_content{
+    color: #bfb7cd;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 10%;
+}
+#header_text{
+    font-size: calc(20px + 2vw);
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.from_text, .to_text{
+    margin-bottom: 25px;
+}
+
+.from_container, .to_container{
+    width: 175px;
+}
+
+.amount_container, #result_container{
+    width: 175px;
+}
+
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+div {
+   /* border: solid 1px white; */
+}
+
+#result{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 25px;
+    font-size: 20px;
+    
+    border: solid 2px #c4a7e7;
+    border-radius: 10px;
+
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+
+}
+
+
+#result_text{
+    color: #c4a7e7;
+    font-size: 20px;
+}
+
+.label {
+    font-size: calc(28px + 2vw);
+    color: #c4a7e7;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background: #2a273f
+}
+
+/* Input field styling */
+
+input{
+    border: solid 2px #c4a7e7;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #c4a7e7;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 25px;
+    font-size: 20px;
+    width: 85%;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/* Button styling*/
+
+button {
+    
+    border: solid 2px #c4a7e7;
+    border-radius: 10px;
+    height: 45px;
+    width: 140px;
+    color: #c4a7e7;
+    font-size: 20px;
+    background-color: transparent;
+}
