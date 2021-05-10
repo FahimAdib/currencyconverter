@@ -46,10 +46,6 @@
     margin-top: 25px;
 }
 
-div {
-   /* border: solid 1px white; */
-}
-
 #result{
     display: flex;
     align-items: center;
