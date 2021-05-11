@@ -26,7 +26,7 @@ btn.onclick = (event) => {
                 return
             }
             else{
-            result.innerHTML = String(output).substring(0,5) 
+            result.innerHTML = String(output).substring(0,14) 
         }
         })
     }
